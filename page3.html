@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html   lang="en">                          <!--language-->            
+
+<head>                                      <!--web tage name-->
+    <title>My Third Web Page</title>
+    <!--link rel="stylesheet" type="text/css"
+    href="style.css"-->
+
+</head>
+
+
+<body>
+<div id="container">                        <!--container to wrap everything-->
+
+    <head>My Website Brand</head>               <!--brand of website-->
+    <nav>                                       <!--main navigation(menu)-->
+        <ul>
+            <li><a href="html-demo.html">Home</a></li>
+            <li><a href="html-demo.html">About</a></li>
+            <li><a href="html-demo.html">Gallery</a></li>
+            <li><a href="html-demo.html">Contact</a></li>
+        </ul>
+    </nav>                                      <!--end main navigation-->
+
+    <main>                                      <!--main content-->
+        <h1>My Third Heading</h1>
+        <p>My Third paragraph.</p>
+        <img src="Images/W1D2_images_central_park.jpg" alt="Central Park" width="500">
+
+        <form action="/signup" method="post">
+            <fieldset>
+                <legend>User personal information</legend>
+                <label>Enter your full name</label><br>
+                    <input type="text" name="name"><br>
+                <label>Enter your email</label><br>
+                    <input type="email" name="email"><br>
+                <label>Enter your phone</label><br>
+                    <input type="text" name="phone"><br>
+                <br><label> Select your gender</label><br>
+                    <input type="radio" name="gender" value="male"/>Male 
+                    <input type="radio" name="gender" value="female"/>Female <br>
+                <br><label>How should we contact you?</label><br>
+                <select>
+                    <option>Email</option>
+                    <option>Phone</option>
+                </select>
+                <br> Tell us the reason of your visit today:<br>
+                <textarea rows="5" cols="30"></textarea><br>
+                <input type="submit" value="sign-up">
+            </fieldset>
+        </form>
+
+       
+    </main>                                     <!--end main content-->
+
+    <footer>&copy; Copyright 2024</footer>      <!--foot info-->
+
+</div>                                      <!--end container-->
+
+
+
+</body>
+
+</html>
