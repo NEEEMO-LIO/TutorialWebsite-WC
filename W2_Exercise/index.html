@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html   lang="en">                          <!--language-->            
+
+<head>                                      <!--web tage name-->
+    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+
+    <!--use the internal CSS to make image as a background-->
+    <style>
+        header{
+            background: url(images/central_park.jpg) 0 -200px no-repeat;
+            background-size: 1500px;
+            /*background-position: 0 -200px;*/
+            /*background-repeat: no-repeat;*/
+            height: 300px;
+            padding-top:100px;
+            padding-left:100px;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+<div id="container">                        <!--container to wrap everything-->
+
+    <header 
+        style="font-size:60px; 
+                color:hsl(0, 0%, 100%); 
+                font-weight:bold;  
+                font-family:Arial, Helvetica, sans-serif">
+        My Website Brand
+    </header>                                   <!--brand of website-->
+
+    <nav>                                       <!--main navigation(menu)-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page3.html">Contact</a></li>
+        </ul>
+    </nav>                                      <!--end main navigation-->
+
+    <!--use the internal CSS to edit the nav's content-->
+    <style>
+        li{
+            list-style-type: none;  /*remove the bullet point dots*/
+            display:inline;    /*make the menu items in one line instead of horizontally layout*/
+            padding: 0 20px; 
+        }
+
+        nav li a:link{      /*this means (nav >> li >> a) to navigate the <a> under the <li> and under the <nav> to instead of build an ID, in case we have more mulitple <a> with different styles.*/
+            color:#000000; /*a:link means before clicked the link*/
+        }
+
+        nav li a:visited{    /*a:visited means after clicked the link*/
+            color:#818db3; 
+        }
+
+        nav li a:hover{     /*a:hover means mouse is hovering on the link */
+            color:#753a30;
+        }
+
+        nav{
+            background-color: rgb(245, 235, 225);
+            height:50px;
+            text-align:center;
+            padding-top: 2px;
+        }
+    </style>
+
+
+
+    <main>                                      <!--main content-->
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+        <!--img src="images/central_park.jpg" alt="Central Park" width="500"-->
+
+        <style>
+            main{
+                height: 400px;
+            }
+
+            main h1 {
+                color:rgb(129,141,179);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+
+    </main>                                     <!--end main content-->
+
+    <footer>&copy; Copyright 2024
+
+        <style>
+            footer{
+                height:40px;
+                background-color:rgb(129,141,179);
+                text-align:center;
+                padding-top: 20px;
+                color:rgb(211, 218, 240);
+                font-size:14px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+        </style>
+
+    </footer>      <!--foot info-->
+
+</div>                                      <!--end container-->
+
+
+
+</body>
+
+</html>
