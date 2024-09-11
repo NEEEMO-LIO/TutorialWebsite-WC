@@ -107,10 +107,11 @@ footer {
 	clear:both;
 	background-color: #babaff;
 	height: 90px;
-	padding-bottom: 0 30px;
+	padding-bottom: 30px;
 	border-style: solid;
 	border-color: #00f;
 	border-width: 2px;
+	/*padding-top: 20px;*/
 	
 }
 footer p {
@@ -127,7 +128,7 @@ footer p {
 	
 	text-align: center;
 	background:#00f;
-	/*padding-bottom: 0 4px;*/
+	margin-top: 20px;
 	height: 25px;
 }
 
