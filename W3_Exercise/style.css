@@ -1,0 +1,131 @@
+
+
+/*header*/
+header{
+    background: url(images/central_park.jpg) 0 -200px no-repeat;
+    background-size: 1500px;
+    height: 300px;
+    padding-top:100px;
+    padding-left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+}
+
+
+
+
+/*body nav*/
+nav{
+    background-color: rgb(255, 245, 238);
+    height:50px;
+    text-align:center;
+    margin-top: -20px;
+
+}
+
+
+li{
+    list-style-type: none;  /*remove the bullet point dots*/
+    display:inline;    /*make the menu items in one line instead of horizontally layout*/
+    padding-left: 20px; 
+    padding-top: 4px;
+    font-size: 20px;
+    
+}
+
+    /*this means (nav >> li >> a) to navigate the <a> under the <li> 
+    and under the <nav> to instead of build an ID, in case we have more 
+    mulitple <a> with different styles.*/
+li a:link{      
+    color:#000; /*a:link means before clicked the link*/
+    text-decoration: none; /*remove the underline*/
+    
+}
+
+li a:visited{    /*a:visited means after clicked the link*/
+    color:#818db3; 
+}
+
+li a:hover{     /*a:hover means mouse is hovering on the link */
+    color:#333;
+}
+
+li a:active{     /*a:hover means mouse clicked down */
+    color:#753a30;
+}
+
+
+
+
+/*body main*/
+main{
+    /*height: 400px;*/
+    margin:50px;
+}
+
+main h1 {
+    color:rgb(129,141,179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body main table*/
+table{
+    margin-top:35px;
+
+}
+
+table, caption, th, td{ /*this is multiple select with “,” selectors are paralleled without nested relationships*/
+    border:1px solid;
+    border-color: #000000;
+}
+
+th, td{
+    width:150px;
+    height:35px;
+    text-align:center;
+}
+
+caption{
+    text-align:center;
+    font-weight: 600;
+    height:40px;
+    padding-top: 15px;
+    color:#753a30;
+    text-transform: uppercase;
+}
+
+label{
+    display:block;
+    margin:15px 0 0 0;
+}
+
+input, textarea{
+    width:300px;
+}
+
+input[type="radio"]{ /*this is attribute select which can allow you select more specific elements*/
+    width: 25px;
+}
+
+input[type="submit"]{
+    display:block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
+
+main #album #photo img{
+    width:400px;
+}
+
+/*body footer*/
+footer{
+    height:40px;
+    background-color:rgb(129,141,179);
+    text-align:center;
+    padding-top: 20px;
+    color:rgb(211, 218, 240);
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}

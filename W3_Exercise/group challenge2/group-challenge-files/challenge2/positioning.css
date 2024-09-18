@@ -1,0 +1,55 @@
+/* CSS */
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 1.1em;
+   background-color: #94d7e3;
+}
+
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin-top: 0;
+}
+
+#farm {
+   margin: auto; /* margin:auto can make the element in the horizontal center */
+   padding: 10px 30px; 
+   /*10px--->top, 30px--->left & right*/
+   width: 500px;
+   background-color: white;
+   height: 1500px;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+   font-size: 18px;
+}
+
+#farm h2{
+   color:red;
+   font-weight: bold;
+}
+
+img {
+   border: 2px solid black;
+}
+
+div[id="cow"]{
+   transform:rotate(10deg);
+   position:absolute;
+      top:240px;
+      left:300px;
+}
+
+
+div[id="feature"]{
+   background-color: yellow;
+   width: 551px;
+   padding-left: 9px;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+   position:absolute;
+      top:640px;
+      left:114px;
+   
+}
+
